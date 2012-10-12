@@ -1,3 +1,5 @@
 VOSAO-CMS SLIDER PLUGIN
 
-Slider plugin allows to insert a simple jQuery slider taking the children from a content item as slides.<br/>Based on the <a href="http://wex.im/jquery-slider2" "target="__blank">jQuery Slider²</a> plugin from Niko Hujanen
+Slider plugin allows you to insert a simple jQuery slider setting the children of a the content item as slides.
+
+Based on the jQuery Slider² plugin from Niko Hujanen (http://wex.im/jquery-slider2)

@@ -1,0 +1,24 @@
+<vosao-plugin>
+    <name>slider</name>
+    <title>$slider.title</title>
+    <version>0.3.3</version>
+    <description>$slider.description</description>
+    <website></website>
+    <entry-point-class>
+        org.vosao.plugins.slider.SliderEntryPoint
+    </entry-point-class>
+    <config>
+        <param name="structureId" title="$slider.structureId" type="String" value="slider" />
+        <param name="maxLength" title="$slider.maxLength" type="Integer" value="10" />
+        <param name="width" title="$slider.width" type="String" value="925" />
+        <param name="height" title="$slider.width" type="String" value="384" />
+        <param name="wait" title="$slider.wait" type="Integer" value="4000" />
+        <param name="fade" title="$slider.fade" type="Integer" value="750" />
+        <param name="direction" title="$slider.direction" type="String" value="left" />
+        <param name="showControls" title="$slider.showControls" type="Boolean" value="true" />
+        <param name="showProgress" title="$slider.showProgress" type="Boolean" value="true" />
+        <param name="hoverPause" title="$slider.hoverPause" type="Boolean" value="true" />
+        <param name="autoplay" title="$slider.autoplay" type="Boolean" value="true" />
+        <param name="randomize" title="$slider.randomize" type="Boolean" value="false" />
+    </config>
+</vosao-plugin>

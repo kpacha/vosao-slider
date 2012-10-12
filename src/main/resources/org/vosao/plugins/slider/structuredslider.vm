@@ -1,0 +1,13 @@
+<link href="file/plugins/slider/css/jquery.slider.min.css" rel="stylesheet" type="text/css" />
+
+<ul id="$sliderId" style="width:${width}px;height:${height}px;">
+#set ($pages = ${service.findPageChildren($parentUrl, $maxLength)})
+#foreach ($p in $pages)
+  ${service.renderStructureContent($p.friendlyURL, $structureId)}
+#end
+</ul>
+
+<script type="text/javascript" src="file/plugins/slider/js/jquery.slider.min.js"></script>
+<script type="text/javascript">
+$('#$sliderId').slider($options); 
+</script>
